@@ -20,3 +20,9 @@ if(distance < 0) {
 }
 
 }, 1000);
+
+const button = document.querySelector('.button');
+
+button.addEventListener('click', () => {
+    alert('Your presence is confirmed :)')
+})
